@@ -126,6 +126,46 @@
                 opacity: 0
             }
         }
+
+        /* Ajustes responsivos */
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+                background: radial-gradient(800px 400px at 50% 20%, rgba(255, 107, 138, 0.12), transparent),
+                    linear-gradient(180deg, #0f1724, #071022 70%);
+            }
+
+            .card {
+                padding: 18px;
+                width: 100%;
+                border-radius: 14px;
+            }
+
+            h1 {
+                font-size: 18px;
+            }
+
+            .letter {
+                font-size: 15px;
+                line-height: 1.6;
+            }
+
+            footer {
+                font-size: 12px;
+            }
+
+            /* Ajustar corazones y melodys */
+            .hearts i,
+            .melodys img {
+                opacity: 0.7;
+                animation-duration: 7s !important;
+            }
+
+            .logo-heart {
+                width: 52px;
+                height: 52px;
+            }
+        }
     </style>
 </head>
 
